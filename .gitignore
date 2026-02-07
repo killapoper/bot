@@ -1,0 +1,14 @@
+.env
+token.json
+client_secrets.json
+credentials.json
+bot.log
+__pycache__/
+*.pyc
+*.xlsx
+photos/
+receipts/
+.DS_Store
+*.egg-info/
+dist/
+build/
