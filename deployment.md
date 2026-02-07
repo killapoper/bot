@@ -30,7 +30,16 @@ pip install -r requirements.txt
 
 ## 4. Конфигурация
 Убедитесь, что в папке бота есть следующие файлы:
-- `config.py` (с вашим `BOT_TOKEN` и `ADMIN_IDS`).
+
+### Создайте файл `.env`:
+```
+BOT_TOKEN=ваш_токен_бота_от_BotFather
+EXCEL_FILE=purchases.xlsx
+GOOGLE_DRIVE_FOLDER_NAME=CTMC
+ADMIN_IDS=ваш_id,второй_id
+```
+
+### Скопируйте файлы:
 - `client_secrets.json` (из Google Cloud Console).
 - `token.json` (**ВАЖНО**: Сначала запустите бота один раз на своем компьютере, чтобы создать этот файл через браузер, а затем загрузите `token.json` на сервер. На серверах обычно нет браузера для входа).
 
